@@ -14,6 +14,7 @@
     left: 60%;
     top: 0;
     position: fixed; /*固定在顶部*/
+    border-radius: 10px;
 }
 
     .top ul {
@@ -66,8 +67,10 @@
     background-color: cornflowerblue;
     background-image: url(https://cdn.jsdelivr.net/gh/swx12138/swx12138.github.io/img/waifu.png);
     background-size: cover;
+    background-repeat:repeat-y;
     width: 60%;
     margin: 0 auto;
+    border-radius: 10px;
 }
 
     .tips div {
@@ -82,14 +85,15 @@
     width: 20%;
     height: 50%;
     left: 80%;
-    top:50%;
+    top: 50%;
     z-index: 99999999
 }
 
 .bottom {
-    background-color: rgba(5, 194, 119, 0.8);
+    background-color: rgba(133,133,155, 0.8);
     height: auto;
     width: 100%;
+    border-radius: 10px;
 }
 
     .bottom ul {
@@ -120,3 +124,10 @@
             .bottom li a:hover {
                 background-color: #111;
             }
+
+.button {
+    background-color: rgba(133,155,133, 0.8);
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+}
