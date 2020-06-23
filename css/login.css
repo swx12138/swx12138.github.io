@@ -1,6 +1,6 @@
 ﻿body {
     background-color: cornsilk;
-    background-image: url(https://cdn.jsdelivr.net/gh/swx12138/swx12138.github.io/img/woshi.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/swx12138/material/image/woshi.png);
     word-wrap: break-word;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -62,10 +62,27 @@
         display: block;
     }
 
+.register {
+    text-align: center;
+    background-color: cornflowerblue;
+    background-image: url(https://cdn.jsdelivr.net/gh/swx12138/material/image/web_bac.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+    .register form {
+        background-color: rgba(255, 255, 255,0.8);
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
 .tips {
     text-align: center;
     background-color: cornflowerblue;
-    background-image: url(https://cdn.jsdelivr.net/gh/swx12138/swx12138.github.io/img/waifu.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/swx12138/material/image/waifu.png);
     background-size: cover;
     background-repeat:repeat-y;
     width: 60%;
@@ -78,6 +95,8 @@
         width: 80%;
         margin: 0 auto;
     }
+
+
 
 .live2d-canvas {
     background-color: rgba(255,233,233,0.7);
