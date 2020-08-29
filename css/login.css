@@ -1,6 +1,6 @@
 ﻿body {
     background-color: cornsilk;
-    background-image: url(https://cdn.jsdelivr.net/gh/swx12138/material@0.0.1/image/woshi.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/swx12138/material/image/woshi.png);
     word-wrap: break-word;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -65,7 +65,7 @@
 .register {
     text-align: center;
     background-color: cornflowerblue;
-    background-image: url(https://cdn.jsdelivr.net/gh/swx12138/material@0.0.1/image/web_bac.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/swx12138/material/image/web_bac.jpg);
     background-size: cover;
     background-repeat: repeat-y;
     width: 60%;
@@ -82,7 +82,7 @@
 .tips {
     text-align: center;
     background-color: cornflowerblue;
-    background-image: url(https://cdn.jsdelivr.net/gh/swx12138/material@0.0.1/image/waifu.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/swx12138/material/image/waifu.png);
     background-size: cover;
     background-repeat:repeat-y;
     width: 60%;
