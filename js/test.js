@@ -1,41 +1,18 @@
-﻿
-function onHeadBtnClick_dw()
- {
-    if (tm_run) {
-        document.getElementById("fgx").innerHTML = Date();
-        console.log("fgx");
-    }
-}
+﻿// test.js
 
-function onHeadBtnClick_addEvent()
-{
-    let newTip = document.createElement("div");
-    newTip.className = "tips";
-    //newTip.classList.add("tips");
+document.body.onload = function () {
+    console.log(document.head.title);
+};
 
-    newTip.appendChild(document.createTextNode("111111"));
-    //document.body.insertBefore(newTip,document.getElementById("footer"));
-    document.body.insertBefore(newTip,$("footer").get(0));
 
-}
-
-function onTipsClick_ly(obj)
- {
+function onTipsClick_ly(obj) {
     //console.log(obj.id);
     let newElem = document.createElement("p");
-    let elemContent = document.createTextNode("让我康康!(振声)"); 
-    newElem.appendChild(elemContent);
+    newElem.appendChild(document.createTextNode("让我康康!(振声)"));
     obj.appendChild(newElem);
-/*     c = obj.getAttribute("class");
-    if (c == "tips") {
-        obj.append("<p>让我康康</p>");
-    }
-    else {
-        console.log(c);
-    } */
 }
 
-$("form").submit(function(_this = this){
+$("form").submit(function (_this = this) {
     console.log(_this);
     alert("提交");
 });
