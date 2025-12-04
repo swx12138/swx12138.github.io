@@ -31,3 +31,12 @@ sup {
 .wanted-character-flex-item-hot-3::before {
     content: "🔥🔥🔥";
 }
+
+.main-container {
+    width: 75%;
+    margin: auto;
+    padding: 15px;
+    border: 2px solid pink;
+    border-radius: 10px;
+    background-color: lightgoldenrodyellow;
+}

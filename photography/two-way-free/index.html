@@ -9,28 +9,40 @@
     <link href="../../bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 </head>
 
-<body style="width: 75%;">
-    <div class="container">
+<body>
+    <div class="main-container">
         <!-- <h1>互勉条</h1> -->
-        <h2>我的成分</h2>
-        <h3>一、强推番剧</h3>
+        <!-- <h2></h2> -->
+        <h3>一、我的成分</h3>
         <ul>
-            <li>魔法少女小圆</li>
-            <li>Fate系列</li>
-            <li>It's MyGO!!!!!</li>
-            <li>葬送的芙丽莲</li>
+            <li>
+                <div>
+                    <h4>强推番剧</h4>
+                    <ul>
+                        <li>魔法少女小圆</li>
+                        <li>Fate系列</li>
+                        <li>It's MyGO!!!!!</li>
+                        <li>葬送的芙丽莲</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h4>常玩游戏</h4>
+                    <ul>
+                        <li>阴阳师<sup class="badge badge-pill badge-danger bg-danger">[貌合神离]</sup></li>
+                        <li>Fate/Grand Order<sup class="badge badge-pill badge-danger bg-danger">[念念不忘]</sup></li>
+                        <li>原神<sup class="badge badge-pill badge-danger bg-danger">[分道扬镳]</sup></li>
+                        <li>三角洲行动<sup class="badge badge-pill badge-danger bg-danger">[如胶似漆]</sup><sup class="badge badge-pill badge-danger bg-danger">[大战场]</sup></li>
+                    </ul>
+                </div>
+            </li>
         </ul>
-        <h3>二、常玩游戏</h3>
+        <h2>二、我的器材</h2>
         <ul>
-            <li>阴阳师<sup class="badge badge-pill badge-danger bg-danger">[貌合神离]</sup></li>
-            <li>Fate/Grand Order<sup class="badge badge-pill badge-danger bg-danger">[念念不忘]</sup></li>
-            <li>原神<sup class="badge badge-pill badge-danger bg-danger">[分道扬镳]</sup></li>
-            <li>三角洲行动<sup class="badge badge-pill badge-danger bg-danger">[如胶似漆]</sup><sup class="badge badge-pill badge-danger bg-danger">[大战场]</sup></li>
-        </ul>
-        <h2>三、我的器材</h2>
-        <ul>
-            <li>相机：Sony α7C2</li>
-            <li>镜头：常用85GMⅡ，新增35GM，绝赞练习中！</li>
+            <li>相机：<p class="badge rounded-pill text-bg-primary">Sony α7C2</p>
+            </li>
+            <li>镜头：常用<p class="badge rounded-pill text-bg-primary">85GMⅡ</p>，新增<p class="badge rounded-pill text-bg-primary">35GM</p>，绝赞练习中！</li>
             <li>
                 三闪光灯，阴天也能拍<sup class="badge badge-pill bg-info">[注]能把灯阵带过去</sup>，天黑不回家<sup class="badge badge-pill  bg-info">[注]电池得能撑住</sup>！
                 <ul>
@@ -40,9 +52,9 @@
                 </ul>
             </li>
         </ul>
-        <h2>四、想拍的角色</h2>
+        <h2>三、想拍的角色</h2>
         <div id="wanted-character-container-root"></div>
-        <h2>五、拍摄说明</h2>
+        <h2>四、拍摄说明</h2>
         <ol>
             <li>互相尊重，友好交流 </li>
             <li>
@@ -52,7 +64,6 @@
         <!-- <h2>互勉条的意义</h2>
         <p>互勉条不仅是一种激励工具，更是一种情感纽带。它能够增强双方的责任感和使命感，促进共同成长和进步。</p> -->
     </div>
-
     <script src="../../bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.js" crossorigin="anonymous"></script>
     <script src="./js/main.js"></script>
 </body>
