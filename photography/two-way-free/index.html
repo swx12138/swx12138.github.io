@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>这是一个二摄互勉条</title>
+    <style>
+        .wanted-character-flex-container {
+            margin: 8px;
+        }
+
+        sup {
+            margin-left: 4px;
+        }
+
+        .wanted-character-flex-item {
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin: 2px 5px;
+        }
+
+        .wanted-character-flex-item-hot,
+        .wanted-character-flex-item-hot-1,
+        .wanted-character-flex-item-hot-2,
+        .wanted-character-flex-item-hot-3 {
+            color: blueviolet;
+            background-color: greenyellow !important;
+        }
+
+        .wanted-character-flex-item-hot-1::before {
+            content: "🔥";
+        }
+
+        .wanted-character-flex-item-hot-2::before {
+            content: "🔥🔥";
+        }
+
+        .wanted-character-flex-item-hot-3::before {
+            content: "🔥🔥🔥";
+        }
+    </style>
+    <link href="../../bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+
+<body style="width: 75%;">
+    <div class="container">
+        <!-- <h1>互勉条</h1> -->
+        <h2>我的成分</h2>
+        <h3>一、强推番剧</h3>
+        <ul>
+            <li>魔法少女小圆</li>
+            <li>Fate系列</li>
+            <li>It's MyGO!!!!!</li>
+            <li>葬送的芙丽莲</li>
+        </ul>
+        <h3>二、常玩游戏</h3>
+        <ul>
+            <li>阴阳师<sup class="badge badge-pill badge-danger bg-danger">[貌合神离]</sup></li>
+            <li>Fate/Grand Order<sup class="badge badge-pill badge-danger bg-danger">[念念不忘]</sup></li>
+            <li>原神<sup class="badge badge-pill badge-danger bg-danger">[分道扬镳]</sup></li>
+            <li>三角洲行动<sup class="badge badge-pill badge-danger bg-danger">[如胶似漆]</sup><sup class="badge badge-pill badge-danger bg-danger">[大战场]</sup></li>
+        </ul>
+        <h2>三、我的器材</h2>
+        <ul>
+            <li>相机：Sony α7C2</li>
+            <li>镜头：常用85GMⅡ，新增35GM，绝赞练习中！</li>
+            <li>
+                三闪光灯，阴天也能拍<sup class="badge badge-pill bg-info">[注]能把灯阵带过去</sup>，天黑不回家<sup class="badge badge-pill  bg-info">[注]电池得能撑住</sup>！
+                <ul>
+                    <li>AD200 Pro Ⅱ</li>
+                    <li>V860Ⅲ</li>
+                    <li>V850Ⅲ</li>
+                </ul>
+            </li>
+        </ul>
+        <h2>四、想拍的角色</h2>
+        <div id="wanted-character-container-root"></div>
+        <h2>五、拍摄说明</h2>
+        <ol>
+            <li>互相尊重，友好交流 </li>
+            <li>
+                <p style="color: red;">不吃小酥肉</p>
+            </li>
+        </ol>
+        <!-- <h2>互勉条的意义</h2>
+        <p>互勉条不仅是一种激励工具，更是一种情感纽带。它能够增强双方的责任感和使命感，促进共同成长和进步。</p> -->
+    </div>
+
+    <script src="../../bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script> -->
+    <script>
+        async function fetchWantedCharactorData() {
+            const GroupKey = ["原神", "阴阳师", "命运：冠位指定"];
+            return await fetch("data/wanted-characters.json")
+                .then(response => response.json())
+                .then(data => {
+                    const groupedData = data.reduce((acc, dat,) => {
+                        // console.log("dat =", dat);
+                        const { ip } = dat;
+                        if (GroupKey.includes(ip)) {
+                            if (!acc[ip]) {
+                                acc[ip] = [];
+                            }
+                            acc[ip].push(dat);
+                        }
+                        else {
+                            acc["其他"] = acc["其他"] || [];
+                            acc["其他"].push(dat);
+                        }
+                        return acc;
+                    }, {});
+                    // console.log("groupedData =", groupedData);
+                    return groupedData;
+                });
+        }
+
+        document.addEventListener("DOMContentLoaded", async () => {
+            const container = document.getElementById("wanted-character-container-root");
+            const gdata = await fetchWantedCharactorData();
+            for (let key in gdata) {
+                const items = gdata[key];
+
+                const section = document.createElement("div");
+                section.classList.add("d-flex");
+                section.classList.add("flex-wrap");
+                section.classList.add("wanted-character-flex-container");
+
+                items.sort((a, b) => a.name.localeCompare(b.name, 'zh-CN'))
+                    .forEach(item => {
+                        // console.log("item =", item);
+                        const { name, level, mark, desc } = item;
+                        const p = document.createElement("p");
+                        p.classList.add("bg-success-subtle");
+                        p.classList.add("wanted-character-flex-item");
+                        if (level > 1) {
+                            p.classList.add(`wanted-character-flex-item-hot-${level - 1}`); // 热度等级
+                        }
+                        p.innerText = name;
+                        if (mark) {
+                            mark.forEach(mark => {
+                                const badge = document.createElement("sup");
+                                badge.classList.add("text-bg-success");
+                                badge.classList.add("badge");
+                                badge.classList.add("badge-pill");
+                                badge.classList.add("badge-info");
+                                badge.innerText = mark;
+                                p.appendChild(badge);
+                            });
+                        }
+                        if (desc) {
+                            const descBadge = document.createElement("sup");
+                            descBadge.classList.add("bg-info");
+                            descBadge.classList.add("badge");
+                            descBadge.classList.add("badge-pill");
+                            descBadge.classList.add("badge-info");
+                            descBadge.innerText = desc;
+                            p.appendChild(descBadge);
+                        }
+                        section.appendChild(p);
+                    });
+
+                if (key != "其他") {
+                    const header = document.createElement("h4");
+                    header.style.display = "block";
+                    header.innerText = key;
+                    container.appendChild(header);
+                }
+
+                container.appendChild(section);
+            }
+        });
+
+    </script>
+</body>
+
+</html>

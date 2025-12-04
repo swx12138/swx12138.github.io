@@ -1,0 +1,871 @@
+[
+    {
+        "name": "芙莉莲",
+        "ip": "葬送的芙莉莲",
+        "type": "A",
+        "mark": [
+            "神谕少女"
+        ],
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "云堇",
+        "ip": "原神",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "优菈",
+        "ip": "原神",
+        "type": "G",
+        "mark": [
+            "音乐会"
+        ],
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "优菈",
+        "ip": "原神",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "夜兰",
+        "ip": "原神",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "琴",
+        "ip": "原神",
+        "type": "G",
+        "mark": [
+            "泳装"
+        ],
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "妮露",
+        "ip": "原神",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "纳西妲",
+        "ip": "原神",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "雷电将军",
+        "ip": "原神",
+        "type": "G",
+        "mark": null,
+        "desc": "于此浮世中，不独入寝可成梦，世事皆虚空",
+        "level": 1
+    },
+    {
+        "name": "刻晴",
+        "ip": "原神",
+        "type": "G",
+        "mark": [
+            "霓裾翩跹"
+        ],
+        "desc": null,
+        "level": 3
+    },
+    {
+        "name": "刻晴",
+        "ip": "原神",
+        "type": "G",
+        "mark": [
+            "情人节"
+        ],
+        "desc": null,
+        "level": 3
+    },
+    {
+        "name": "刻晴",
+        "ip": "原神",
+        "type": "G",
+        "mark": null,
+        "desc": "心有所向，日复一日，必有精进",
+        "level": 3
+    },
+    {
+        "name": "甘雨",
+        "ip": "原神",
+        "type": "G",
+        "mark": [
+            "音乐会"
+        ],
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "甘雨",
+        "ip": "原神",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "芭芭拉",
+        "ip": "原神",
+        "type": "G",
+        "mark": [
+            "泳装"
+        ],
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "芭芭拉",
+        "ip": "原神",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "八重神子",
+        "ip": "原神",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "萤草",
+        "ip": "阴阳师",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "一反木棉",
+        "ip": "阴阳师",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "妖刀姬",
+        "ip": "阴阳师",
+        "type": "G",
+        "mark": [
+            "UR"
+        ],
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "妖刀姬",
+        "ip": "阴阳师",
+        "type": "G",
+        "mark": [
+            "御神之刃"
+        ],
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "雪女",
+        "ip": "阴阳师",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "心狩鬼女红叶",
+        "ip": "阴阳师",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "千姬",
+        "ip": "阴阳师",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "泷夜叉姬",
+        "ip": "阴阳师",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "铃鹿御前",
+        "ip": "阴阳师",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "孔雀明王",
+        "ip": "阴阳师",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "季",
+        "ip": "阴阳师",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "花鸟卷",
+        "ip": "阴阳师",
+        "type": "G",
+        "mark": [
+            "云烟舒墨"
+        ],
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "花鸟卷",
+        "ip": "阴阳师",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "鬼女红叶",
+        "ip": "阴阳师",
+        "type": "G",
+        "mark": [
+            "决战！平安京"
+        ],
+        "desc": "瓦达西喏扣扣喽，都哇哩撒撒给马斯",
+        "level": 1
+    },
+    {
+        "name": "赤影妖刀姬",
+        "ip": "阴阳师",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "不知火",
+        "ip": "阴阳师",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 3
+    },
+    {
+        "name": "本真三尾狐",
+        "ip": "阴阳师",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "妃咲",
+        "ip": "蔚蓝档案",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "瑶",
+        "ip": "王者荣耀",
+        "type": "G",
+        "mark": [
+            "时之祈愿",
+            "时之愿境"
+        ],
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "朵莉亚",
+        "ip": "王者荣耀",
+        "type": "G",
+        "mark": [
+            "人鱼之歌"
+        ],
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "崭新光辉",
+        "ip": "闪耀：优骏少女！",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "小栗帽",
+        "ip": "闪耀：优骏少女！",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "诺伦王牌",
+        "ip": "闪耀：优骏少女！",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "目白麦昆",
+        "ip": "闪耀：优骏少女！",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "待兼诗歌剧",
+        "ip": "闪耀：优骏少女！",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "麦晓雯",
+        "ip": "三角洲行动",
+        "type": "G",
+        "mark": [
+            "水墨云图"
+        ],
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "木之本樱",
+        "ip": "魔卡少女樱",
+        "type": "A",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "鹿目圆",
+        "ip": "魔法少女小圆",
+        "type": "A",
+        "mark": [
+            "圆神！"
+        ],
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "鹿目圆",
+        "ip": "魔法少女小圆",
+        "type": "A",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "月批",
+        "ip": "命运：冠位指定",
+        "type": "G",
+        "mark": [
+            "二破"
+        ],
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "玉兔",
+        "ip": "命运：冠位指定",
+        "type": "G",
+        "mark": [
+            "二破"
+        ],
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "伊什塔尔",
+        "ip": "命运：冠位指定",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "妖精骑士崔斯坦",
+        "ip": "命运：冠位指定",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "特诺奇蒂特兰",
+        "ip": "命运：冠位指定",
+        "type": "G",
+        "mark": [
+            "二破"
+        ],
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "斯卡哈",
+        "ip": "命运：冠位指定",
+        "type": "G",
+        "mark": [
+            "Suki"
+        ],
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "清姬",
+        "ip": "命运：冠位指定",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "诺亚",
+        "ip": "命运：冠位指定",
+        "type": "G",
+        "mark": [
+            "满破",
+            "玉足Suki"
+        ],
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "尼禄",
+        "ip": "命运：冠位指定",
+        "type": "G",
+        "mark": [
+            "Beast"
+        ],
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "尼禄",
+        "ip": "命运：冠位指定",
+        "type": "G",
+        "mark": [
+            "花嫁"
+        ],
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "尼禄",
+        "ip": "命运：冠位指定",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "迦摩",
+        "ip": "命运：冠位指定",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "爱尔奎特",
+        "ip": "命运：冠位指定",
+        "type": "G",
+        "mark": [
+            "二破"
+        ],
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "埃列什基伽勒",
+        "ip": "命运：冠位指定",
+        "type": "G",
+        "mark": [
+            "Beast"
+        ],
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "阿尔托莉雅-Lily",
+        "ip": "命运：冠位指定",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "阿尔托莉雅",
+        "ip": "命运：冠位指定",
+        "type": "G",
+        "mark": [
+            "Ruler",
+            "三破"
+        ],
+        "desc": "皇家兔女郎！",
+        "level": 2
+    },
+    {
+        "name": "长离",
+        "ip": "鸣潮",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "尤诺",
+        "ip": "鸣潮",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "吟霖",
+        "ip": "鸣潮",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "守岸人",
+        "ip": "鸣潮",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "卡提希娅",
+        "ip": "鸣潮",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "今汐",
+        "ip": "鸣潮",
+        "type": "G",
+        "mark": [
+            "桃夭灼灼"
+        ],
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "菲比",
+        "ip": "鸣潮",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "史尔特尔",
+        "ip": "明日方舟",
+        "type": "G",
+        "mark": [
+            "音律联觉"
+        ],
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "阿米娅",
+        "ip": "明日方舟",
+        "type": "G",
+        "mark": [
+            "音律联觉"
+        ],
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "玛露西尔",
+        "ip": "迷宫饭",
+        "type": "A",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "加藤惠",
+        "ip": "路人女主的养成方法",
+        "type": "A",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "松前绪花",
+        "ip": "花开伊吕波",
+        "type": "A",
+        "mark": null,
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "涂山红红",
+        "ip": "狐妖小红娘",
+        "type": "A",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "亚丝娜",
+        "ip": "刀剑神域",
+        "type": "A",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "信浓",
+        "ip": "碧蓝航线",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "拉菲",
+        "ip": "碧蓝航线",
+        "type": "G",
+        "mark": [
+            "白兔与誓约"
+        ],
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "拉菲Ⅱ",
+        "ip": "碧蓝航线",
+        "type": "G",
+        "mark": [
+            "睡意满满忙碌DAY"
+        ],
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "拉菲Ⅱ",
+        "ip": "碧蓝航线",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "柴郡",
+        "ip": "碧蓝航线",
+        "type": "G",
+        "mark": [
+            "新年旗袍"
+        ],
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "柴郡",
+        "ip": "碧蓝航线",
+        "type": "G",
+        "mark": [
+            "誓约"
+        ],
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "阿尔比恩",
+        "ip": "碧蓝航线",
+        "type": "G",
+        "mark": [
+            "香气来朱阁"
+        ],
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "昔涟",
+        "ip": "崩坏：星穹铁道",
+        "type": "G",
+        "mark": [
+            "大"
+        ],
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "昔涟",
+        "ip": "崩坏：星穹铁道",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "阮·梅",
+        "ip": "崩坏：星穹铁道",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "阿格莱雅",
+        "ip": "崩坏：星穹铁道",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "雷姆",
+        "ip": "Re:从零开始的异世界生活",
+        "type": "A",
+        "mark": [
+            "旗袍"
+        ],
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "雷姆",
+        "ip": "Re:从零开始的异世界生活",
+        "type": "A",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "远坂凛",
+        "ip": "Fate/Stay Night",
+        "type": "A",
+        "mark": [
+            "校服"
+        ],
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "远坂凛",
+        "ip": "Fate/Stay Night",
+        "type": "A",
+        "mark": null,
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "千早爱音+长崎素世",
+        "ip": "Bang Dream:It‘s My GO!!!!!",
+        "type": "A",
+        "mark": [
+            "演出服"
+        ],
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "千早爱音+长崎素世",
+        "ip": "Bang Dream:It‘s My GO!!!!!",
+        "type": "A",
+        "mark": [
+            "校服"
+        ],
+        "desc": null,
+        "level": 2
+    },
+    {
+        "name": "丰川祥子",
+        "ip": "Bang Dream:It‘s My GO!!!!!",
+        "type": "A",
+        "mark": [
+            "月之森"
+        ],
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "丰川祥子",
+        "ip": "Bang Dream:It‘s My GO!!!!!",
+        "type": "A",
+        "mark": [
+            "演出服"
+        ],
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "丰川祥子",
+        "ip": "Bang Dream:It‘s My GO!!!!!",
+        "type": "A",
+        "mark": [
+            "划小船"
+        ],
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "穹",
+        "ip": "《缘分的天空》",
+        "type": "A",
+        "mark": null,
+        "desc": null,
+        "level": 1
+    },
+    {
+        "name": "丛雨",
+        "ip": "《千恋＊万花》",
+        "type": "G",
+        "mark": null,
+        "desc": null,
+        "level": 2
+    }
+]
